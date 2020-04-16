@@ -1,0 +1,33 @@
+/*
+    Content Manegment System - Course Assignment
+*/
+header {
+    background-image: url("../assets/images/home-page-header.jpg");
+    height: 700px;
+    width: 100%;
+    
+}
+
+.logo {
+    width: 350px;
+    padding-left: 22em;
+    padding-top: 20px;
+    padding-right: 5px;
+   
+}
+
+.logoTagline {
+    padding-left: 28em;
+    margin-top: 0;
+}
+
+h1 {
+   padding-top: 50px;
+   padding-right: 120px;
+   float: right;
+   clear: right;
+   opacity: 50%;
+}
+body {
+    font-family: sans-serif;
+}
