@@ -1,11 +1,17 @@
 /*
     Content Manegment System - Course Assignment
 */
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 header {
     background-image: url("../assets/images/home-page-header.jpg");
     height: 700px;
     width: 100%;
-    
 }
 
 .logo {
@@ -13,7 +19,6 @@ header {
     padding-left: 22em;
     padding-top: 20px;
     padding-right: 5px;
-   
 }
 
 .logoTagline {
@@ -28,6 +33,45 @@ h1 {
    clear: right;
    opacity: 50%;
 }
-body {
-    font-family: sans-serif;
+
+.callToActionButton {
+    border: 2px solid white;
+    background-color: #e0aab9;
+    padding: 1em;
+    border-radius: 15px;
+    width: 170px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 500px;
+   
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.callToActionButton:hover {
+    text-decoration: underline;
+    border: 2px solid blue;
+}
+
+.card {
+    width: 300px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.results {
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+}
+
+.productButton {
+    padding: 10px 15px;
+    background-color: hotpink;
+
 }
